@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[학습지] 열의 이동과 우리 생활</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #f5a623;
+            --bg-color: #fcfcfc;
+            --text-color: #333;
+            --border-color: #ddd;
+        }
+        
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        /* 헤더 스타일 */
+        header {
+            text-align: center;
+            border-bottom: 3px double var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 28px;
+        }
+
+        .info-box {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .info-box span {
+            border-bottom: 1px solid #666;
+            padding: 0 10px 2px 10px;
+        }
+
+        /* 섹션 정의 */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 10px;
+            color: #444;
+            margin-top: 25px;
+        }
+
+        /* 문제 및 활동 서식 */
+        .activity-box {
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .q-num {
+            background: #666;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        /* 테이블 서식 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f5f9;
+            font-weight: bold;
+        }
+
+        /* 답변란 서식 */
+        .answer-line {
+            border-bottom: 1px dashed #999;
+            margin-top: 15px;
+            padding-bottom: 5px;
+            min-height: 25px;
+        }
+        
+        .answer-box {
+            border: 1px solid #ccc;
+            height: 100px;
+            border-radius: 4px;
+            margin-top: 10px;
+            background: #fff;
+        }
+
+        /* 보기 박스 */
+        .word-bank {
+            border: 2px dashed var(--secondary-color);
+            padding: 10px 20px;
+            border-radius: 6px;
+            background-color: #fffdf7;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        /* 인쇄 설정 */
+        @media print {
+            body { background: none; padding: 0; }
+            .container { box-shadow: none; padding: 10px; }
+            button { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>[과학 활동지] 02. 열전달과 우리 생활</h1>
+        <div class="info-box">
+            <span>제 ___학년 ___반 ___번</span>
+            <span>이름: _______________</span>
+        </div>
+    </header>
+
+    <section>
+        <div style="background: #eef5fc; padding: 12px; border-radius: 6px; border-left: 5px solid var(--primary-color);">
+            <strong>핵심 목표:</strong> 전도, 대류, 복사의 원리를 이해하고, 일상생활 및 초단열 주택에서 열의 이동을 통제하는 방법을 설명할 수 있다.
+        </div>
+    </section>
+
+    <section>
+        <h2>활동 1. 열전달의 3가지 방식 알아보기</h2>
+        <p>교과서 내용을 바탕으로 빈칸을 채우고, 세 가지 열전달 방식을 비교해 봅시다.</p>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">1</span>다음 정의에 알맞은 열전달 방식을 <보기>에서 골라 쓰시오.</div>
+            <div class="word-bank">＜ 보기 ＞ &nbsp;&nbsp;&nbsp; 전도 &nbsp;&nbsp;|&nbsp;&nbsp; 대류 &nbsp;&nbsp;|&nbsp;&nbsp; 복사</div>
+            
+            <p>(1) 주로 고체에서 물질을 구성하는 입자가 제자리에서 진동하면서 이웃한 입자에 열을 차례로 전달하는 방식: ( <span style="display:inline-block; width:80px; text-align:center;" class="answer-line"></span> )</p>
+            <p>(2) 액체나 기체에서 열을 받은 입자가 직접 이동하면서 열을 전달하는 방식: ( <span style="display:inline-block; width:80px; text-align:center;" class="answer-line"></span> )</p>
+            <p>(3) 열이 다른 물질을 거치지 않고 직접 전자기파의 형태로 전달되는 방식: ( <span style="display:inline-block; width:80px; text-align:center;" class="answer-line"></span> )</p>
+        </div>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">2</span><strong>[비유 활동]</strong> 체육복을 전달하는 상황에 빗대어 열전달 방식을 분류해 봅시다.</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 33%;">가) 학생들이 제자리에 앉아 뒤로 전달하기</th>
+                        <th style="width: 33%;">나) 학생이 체육복을 들고 직접 뒤로 걸어가서 주기</th>
+                        <th style="width: 33%;">다) 뒤에 있는 학생에게 체육복을 던져서 받게 하기</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="height: 40px;">( 방식: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )</td>
+                        <td>( 방식: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )</td>
+                        <td>( 방식: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>활동 2. 일상생활 속 열전달의 활용</h2>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">3</span><strong>[실험 정리]</strong> 나무판과 녹슨 철판 위에 같은 온도의 뜨거운 물이 담긴 바이알 병을 놓은 뒤 열화상 카메라로 촬영했습니다. 시간이 흐른 뒤 열의 전도가 더 빠른 물질은 무엇이며, 그 까닭은 무엇인지 서술하시오.</div>
+            <div>• 열의 전도가 더 빠른 물질: <span style="display:inline-block; width:200px;" class="answer-line"></span></div>
+            <div style="margin-top:10px;">• 그렇게 생각한 까닭:</div>
+            <div class="answer-line"></div>
+            <div class="answer-line"></div>
+        </div>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">4</span>프라이팬을 가할 때, <strong>금속 부분</strong>은 빨리 뜨거워지지만 <strong>나무 손잡이</strong>는 잘 뜨거워지지 않는 이유를 '물질의 종류'와 연결 지어 설명해 봅시다.</div>
+            <div class="answer-line"></div>
+            <div class="answer-line"></div>
+        </div>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">5</span>효율적인 냉난방을 위해 방 안에 <strong>냉방기(에어컨)</strong>와 <strong>난방기(라디에이터)</strong>를 설치하려고 합니다. 대류 현상을 고려할 때 각각 어느 위치에 설치하는 것이 좋은지 선택하고 그 이유를 쓰시오.</div>
+            <p>• 냉방기는 ( 위쪽 / 아래쪽 )에 설치하고, 난방기는 ( 위쪽 / 아래쪽 )에 설치하는 것이 효율적이다.</p>
+            <div>• 까닭:</div>
+            <div class="answer-line"></div>
+            <div class="answer-line"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>활동 3. 창의·융합 - 초단열 주택(패시브 하우스) 원리 분석</h2>
+        <p>교과서에 소개된 '초단열 주택'은 외부로 빠져나가거나 들어오는 열을 차단(단열)하여 적정 온도를 유지합니다. 그림을 참고하여 질문에 답해 봅시다.</p>
+
+        <div class="activity-box">
+            <div class="question"><span class="q-num">6</span>초단열 주택에 적용된 기술이 어떤 열전달 방식을 막기 위한 것인지 연결해 보고, 단열 벽 구조의 특징을 간단히 써 봅시다.</div>
+            
+            <p><strong>(1) 3중 창 구조 (유리 사이의 공기층):</strong> 열전달 방식 중 주로 ( 전도 / 대류 / 복사 )를 막아줍니다.</p>
+            <p><strong>(2) 계절에 따른 태양 고도를 고려한 창문 배치:</strong> 여름철 태양의 ( 전도 / 대류 / 복사 )열을 차단합니다.</p>
+            
+            <p style="margin-top:15px;"><strong>(3) [생각해보기]</strong> 집을 구성하는 재료의 연결 부위에 틈새가 있으면 어떤 현상이 발생하여 단열 효과가 떨어지게 될까요?</p>
+            <div class="answer-line"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>스스로 확인하기</h2>
+        <div class="activity-box" style="border: 2px solid var(--primary-color);">
+            <div class="question"><span class="q-num">▶</span>한여름에 야외 활동을 할 때 햇빛을 막기 위해 양산을 쓰기도 합니다. 이 현상을 열의 전달 방식과 관련지어 설명해 봅시다.</div>
+            <div class="answer-line"></div>
+            <div class="answer-line"></div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
